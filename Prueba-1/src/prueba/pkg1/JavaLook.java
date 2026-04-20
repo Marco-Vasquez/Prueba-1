@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author andres
  */
-public class JavaLook{
+public class JavaLook {
     static EmailAccount[] cuentas=new EmailAccount[100];
     static EmailAccount cuentaactiva=null;
     static Scanner lector=new Scanner(System.in);

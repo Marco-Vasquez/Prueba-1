@@ -9,7 +9,7 @@ package prueba.pkg1;
  *
  * @author andres
  */
-public class Email{
+public class Email {
     private String emisor;
     private String asunto;
     private String contenido;
