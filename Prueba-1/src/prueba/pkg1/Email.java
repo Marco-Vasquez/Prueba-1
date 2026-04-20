@@ -9,12 +9,12 @@ package prueba.pkg1;
  *
  * @author andres
  */
-public class Email {
+public class Email{
     private String emisor;
     private String asunto;
     private String contenido;
     private boolean leido;
-    public Email(String emisor, String asunto, String contenido){
+    public Email(String emisor,String asunto,String contenido){
         this.emisor=emisor;
         this.asunto=asunto;
         this.contenido=contenido;
@@ -40,5 +40,4 @@ public class Email {
         System.out.println("ASUNTO: "+asunto);
         System.out.println(contenido);
     }
-    
 }
